@@ -6,7 +6,7 @@ export const Footer = () => {
     return (
         <footer>
             <p>
-                Made with <span style={{color: '#ffa500'}}>&hearts;</span> by <a href="https://github.com/rudrakshi99">@rudrakshi</a>
+                Made with <span style={{color: '#ffa500'}}>&hearts;</span> by <a href="https://github.com/CSAURABH">@CSAURABH</a>
             </p>
             
             <p>
