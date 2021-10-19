@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 0 16px;
+}
+
+header {
+    padding: 16px 32px;
+    background-color: #f5ba13;
+    margin: auto -16px;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
+}
+
+header h1 {
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;
+}
+
+.user-info {
+    float: right;
+    display: flex;
+    padding: 33px;
+}
+
+.user-info p {
+    font-family: "McLaren", cursive;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.user-info a {
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+}
+
+footer p {
+    color: #ccc;
+}
+
+form {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 440px;
+    margin: 50px auto 20px auto;
+}
+
+input,
+textarea {
+    border: none;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+    width: 87%;
+}
+
+input {
+    font-weight: bold;
+}
+
+input:hover,
+textarea:hover {
+    border: none;
+    text-decoration: none;
+}
+
+textarea:focus,
+input:focus {
+    outline: 0;
+}
+
+.note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+}
+
+.note p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.note-date {
+    color: rgb(179, 178, 178);
+    font-size: .8em !important;
+    float: right;
+}
+
+.note-icon {
+    float: right;
+    cursor: pointer;
+}
+
+svg {
+    font-size: larger;
+    margin: 3px;
+}
+
+.note-foot {
+    color: #ccc;
+    font-size: .8em;
+}
+
+.note-foot p {
+    margin-bottom: 2px;
+}
