@@ -26,14 +26,6 @@ $ npm i
 ```
 $ npm start
 ```
-#### GitHub Repository Structure
-
-| S.No. | Branch Name                                                                  | Purpose                       |
-| ----- | ---------------------------------------------------------------------------- | ----------------------------- |
-| 1.    | [master](https://github.com/rudrakshi99/Keeper-App/tree/master)              | contains all Frontend code    |
-| 2.    | [backend](https://github.com/rudrakshi99/Keeper-App/tree/backend)            | contains all Backend code     |
-
-
 
 # License :memo:
 
